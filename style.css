@@ -1,0 +1,285 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 60%;
+}
+.navbar{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    background-color: #270082;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    height: 45px;
+    width: 130px;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.tags{
+    padding-right: 20px;
+    font-size: 14px;
+    
+}
+.tags a{
+    margin-right: 20px;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    color: white;
+}
+.tags a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+ .hero-img{
+     background-image: url(hero_image.png);
+     background-size: cover; 
+    height: 100vh;
+    width:100%; 
+} 
+ .hero h1{
+    font-size: 10rem;
+    padding-top:230px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.hero h3{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.hero p{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 1.75rem;
+} 
+.music{
+    padding-top: 40px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-color: #281154;
+    color: white;
+}
+.music h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.music .main{
+    font-size: 16px;
+   font-weight: bold;
+   padding-bottom:20px ;
+}
+.music button{
+    font-size: 13px;
+    padding: 10px 15px;
+    background-color: #dc0000;
+    color: white;
+    border: none;
+    height: 33px;
+    width: 147px;
+}
+.music button:hover{
+    background-color: #dc3b00;
+    transition: 0.2s;
+}
+.music .lower{
+    font-size: 14px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+.about-music{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.about-music h3{
+    font-weight:700 ;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about-music .para-one{
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about-music button{
+    background-color: #270082;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    height: 33px;
+}
+.about-music button:hover{
+    background-color: #003282;
+}
+.video{
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+.video-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(video.png);
+    text-align: center;
+    background-size: cover;
+}
+.video h3{
+    font-size:2.5rem ;
+    font-weight: 700;
+    padding-top: 280px;
+    padding-bottom: 30px;
+}
+.video p{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.75rem;
+    color: whitesmoke;
+}
+.gift{
+    height: 325;
+    width: 100%;
+    padding-top: 100px; 
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gift .cont{
+    height: 310;
+    width: 500px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.cont h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.cont p{
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    color: rgba(15, 1, 1, 0.603);
+}
+.cont button{
+    background-color: #270082;
+    color: white;
+    height: 30px;
+    padding: 6px 15px;
+    border: none;
+    margin-top: 15px;
+}
+.cont button:hover{
+    background-color: #003282;
+    transition: 0.3s;
+}
+.foot1{
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1b0058;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.list1 h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid white;
+}
+li{
+    padding-top: 5px;
+    font-family: sans-serif;
+    list-style-type: none;
+    font-size: 14px;
+}
+.foot2{
+    height: 60px;
+    background-color: #270082;
+    color: white;
+    text-align: center;
+}
+.foot2 p{
+    padding-top: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+@media (max-width : 786px) {
+    html{
+        font-size: 40%;
+    }
+    .tags a{
+        display: none;
+    }
+    .navbar i{
+        font-size: 24px;
+        padding-right: 20px; 
+    }
+    .foot1{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .list1{
+        min-width: 150px;
+    }
+    .gift{
+        flex-direction: column;
+    }
+    .gift-img img,.cont{
+        max-width: 100%;
+    }
+    .about-music {
+         margin-top: 20rem; 
+    }
+}
+@media (min-width : 786px){
+    .navbar i{
+        display: none;
+    }
+}
+@media (max-width : 1024px){
+   .img1 img , .img2 img{
+    max-width: 100%;
+   }
+}
